@@ -1,0 +1,35 @@
+#main
+{
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(42, 189, 189); 
+}
+
+#container
+{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    grid-template-columns: 34% 34% 34%;
+    grid-template-rows: 34% 34% 34%;
+    
+}
+.border
+{
+    border: 1px solid black;  
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button
+{
+    margin-top: 20px;
+}
+#winner
+{
+    margin-top: 35px;
+}
