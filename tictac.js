@@ -58,7 +58,8 @@ function playGame(current)
    let found=checker();
    if(count==9&&(found[0]==false||found[0]==undefined))
    {
-    reStart()
+    document.getElementById("winner").innerHTML="Match draw";
+    document.getElementById("player").innerHTML="";
    }
    if(found[0])
    {
